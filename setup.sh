@@ -19,3 +19,6 @@ sudo systemctl daemon-reload
 sudo systemctl enable midi.service
 sudo systemctl start midi.service
 
+git clone https://gitlab.com/larsfp/rpi-readonly
+cd rpi-readonly
+sudo ./setup.sh
